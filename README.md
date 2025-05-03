@@ -4,7 +4,23 @@
 
 This project demonstrates the process of working with Docker images, from pulling an image from a repository to managing containers and cleaning up resources. Docker is a powerful tool for containerization, enabling developers to package applications and their dependencies into lightweight, portable containers. This guide provides a step-by-step walkthrough of essential Docker commands and concepts, illustrated with images for better understanding.
 
----
+
+- Before diving into Docker operations, it's essential to set up a virtual server environment where your containers will run. In this case, we’re using an Amazon EC2 (Elastic Compute Cloud) instance to serve as the host machine for Docker.
+
+![1](./img/using%20this%20.png)
+
+
+
+![1](./img/using%202.png)
+
+
+This image shows the terminal connection to the EC2 instance using SSH. It's a critical step that gives you command-line access to the server, allowing you to install and manage Docker
+
+
+![1](./img/using%203.png)
+
+
+
 
 ## Steps and Explanations
 
