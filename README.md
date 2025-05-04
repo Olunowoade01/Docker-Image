@@ -187,6 +187,58 @@ You can now confidently push the image to a registry or use it for deployment in
 ![15](./img/15%20docker%20image.png)
 
 
+
+## Docker containers and simple command.
+
+- Project Topic 
+
+1. Start a Container and Run a Simple Command
+2. Stop the Container and Verify Its Status
+3. Restart the Container and Observe Changes
+4. Remove the Container
+
+- Starting a Docker container.
+
+### 1. Start a Container and Run a Simple Command
+![15](./img/16%20continationa.png)
+- Starting a Docker container.
+
+This image shows the process of starting a Docker container using the `docker run` command. The container is launched with a specific image, and a simple command is executed inside the container to verify its functionality.
+
+
+
+### 2. Stop the Container and Verify Its Status
+![17](./img/17%20contination.png)
+- Stopping a running Docker container.
+
+This image demonstrates stopping a running container using the `docker stop` command. After stopping the container, its status can be verified using the `docker ps` command to ensure it is no longer active.
+
+
+
+
+### 3. Restart the Container and Observe Changes
+![18](./img/18%20continuation.png)
+-Restarting a Docker container.
+
+Here, the container is restarted using the `docker start` command. This step is useful for observing changes or resuming operations after a container has been stopped.
+
+
+
+### 4. Remove the Container
+![19](./img/19%20continuation.png)
+- Removing a Docker container.
+
+- This image shows the process of removing a stopped container using the `docker rm` command. Removing unused containers helps free up system resources and maintain a clean environment.
+
+
+
+- This image demonstrates the ⁠ docker rm ⁠ command, which is used to delete a stopped container. Ensure the container is not running before attempting to remove it.
+
+![20](./img/20%20continuation.png)
+
+
+
+
 Conclusion
 This Docker Image Project provides a practical, end-to-end guide for understanding and mastering Docker’s core features. From pulling base images to building custom containers and managing resources, it covers the full Docker development cycle. Special attention is given to:
 
